@@ -1,0 +1,11 @@
+service: serverlessdemo
+
+plugins:
+  - serverless-offline
+
+provider:
+  name: aws
+
+functions:
+  - ${file(./pySLSDemo/serverless.yml)}
+  - ${file(./nodeSLSDemo/serverless.yml)}
