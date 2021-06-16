@@ -1,8 +1,5 @@
 service: serverlessdemo
 
-plugins:
-  - serverless-offline
-
 provider:
   name: aws
 
