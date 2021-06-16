@@ -2,7 +2,3 @@
 py:
   runtime: python3.8
   handler: pySLSDemo/func1.func1
-  events:
-    - http:
-        path: home
-        method: get
